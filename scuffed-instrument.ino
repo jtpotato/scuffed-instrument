@@ -33,7 +33,7 @@ void loop() {
 
   int freq = 440;
 
-  freq = round(rotatingThingInput / 12) * (880 / 12) + 880;
+  freq = round(rotatingThingInput / 120) * (880 / 12) + 880;
 
   if (is_button_pressed) {
     tone(5, freq);
